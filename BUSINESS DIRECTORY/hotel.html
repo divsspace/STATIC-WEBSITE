@@ -1,0 +1,241 @@
+<html>
+<head>
+<title>HOTEL</title>
+<style>
+body {
+margin: 0;
+padding: 0;
+font-family: Arial, sans-serif;
+}
+.top-frame {
+height: 20%;
+background-color: #9b7953;
+display: flex;
+align-items: center;
+justify-content: center;
+border-bottom: 1px solid #410838;
+}
+.content {
+display: flex;
+height: 90%;
+}
+.main-frame {
+width: 100%;
+background-color: #867f821f;
+}
+.parent-element { 
+    width: 20%; 
+} 
+.float-child-element { 
+    float: left; 
+     
+} 
+.red { 
+    background-color: rgb(108, 106, 106); 
+    margin-left: 50%; 
+    height: 100px; 
+} 
+.yellow { 
+    margin-left: 50%; 
+}
+.grid-container-element {
+    display: grid; 
+    grid-template-columns: 1fr 4fr;  
+    background-color: #ddd2cc; 
+    width: 100%; 
+    height:auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
+
+} 
+.grid-container-element:hover{
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+    background-color: #beab95;
+
+}
+.grid-child-element { 
+    margin: 10px; 
+
+}
+
+a {
+  text-decoration: none;
+  color:black;
+  display: block; height: 100%; width: 100%;
+  display: inline-block;
+}
+a:visited { 
+  text-decoration: none; 
+  color:black;
+ }
+ * {
+  box-sizing: border-box;
+}
+
+.top-frame {
+  height: 20%;
+  background-color: #9b7953;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  border-bottom: 1px solid #fdf9fc;
+}
+.top-frame .search-container {
+  display: flex;
+  align-items: center;
+}
+#search-bar {
+  width: 200px;
+  padding: 5px;
+  font-size: 14px;
+}
+.search-container button {
+  padding: 6px;
+  font-size: 14px;
+  margin-left: 5px;
+}
+.navbar {
+  display: flex;
+  background-color: #6f5536;
+  padding: 10px;
+  justify-content: center;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.navbar a:hover {
+  text-decoration: underline;
+}
+</style>
+</head>
+<body>
+  <div class="top-frame">
+    <div>
+      <h1 style="font-family: Garamond; color: #3d2916; margin: 0;">Business Directory</h1>
+      <h3 style="font-family: Garamond; color: #3d2916; margin: 0;">The BBSR Chapter</h3>
+    </div>
+    <div class="search-container">
+      <input type="text" id="search-bar" placeholder="Search feature coming soon...">
+      <button onclick="searchBusiness()">Search</button>
+    </div>
+  </div>
+  <div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="contact.html">Contact Us</a>
+    <a href="services.html">Services</a>
+  </div>
+<br>
+<br>
+<div class="grid-container-element">
+  <a href="mayfair.HTML" target="_blank" style="display: block; margin-bottom: 20px;">
+    <div class="grid-child-element purple">
+        <img src="mayfair.jpg" alt="mayfair" width="200" height="200">
+      </div></a>
+      <a href="mayfair.HTML" target="_blank" style="display: block; margin-bottom: 20px;">
+    <div class="grid-child-element green"><h2>
+        
+      MAYFAIR LAGOON
+
+    
+    </h2><p>
+          
+      Set on 4 hectares of garden with a lagoon, this high-end hotel is 7 km from historical exhibits at Odisha State Museum.
+
+      <br><br>
+      
+      ★★★★★ 5-STAR HOTEL
+      
+      <br><br>
+            
+      Address: Mayfair Hotels & Resorts Ltd, 8-B, Jayadev Vihar, Bhubaneswar, Odisha 751013•092375 00101
+    
+    </p></div>
+        </a></div>
+
+  <br>
+  <div class="grid-container-element">
+    <a href="empires.HTML" target="_blank" style="display: block; margin-bottom: 20px;">
+      <div class="grid-child-element purple">
+          <img src="empires.jpg" alt="empires" width="200" height="200">
+        </div></a>
+        <a href="empires.HTML" target="_blank" style="display: block; margin-bottom: 20px;">
+      <div class="grid-child-element green"><h2>
+        EMPIRES HOTEL
+      
+      </h2><p>
+          
+        This informal hotel in a resort area is a 4-minute walk from Golden Beach, 4 km from the storied 12th-century Shree Jagannath Temple complex and 6 km from Puri train station.          
+          <br><br>
+          
+          ★★★★☆ 4-STAR HOTEL 
+          
+          <br><br>
+          
+          Address: Sipasarubali Baliapanda, New Marine Drive Rd, Puri, Odisha 752001•073818 91007
+
+        
+        </p></div>
+          </a></div>
+      <br>
+      <div class="grid-container-element">
+        <a href="IRA.HTML" target="_blank" style="display: block; margin-bottom: 20px;">
+          <div class="grid-child-element purple">
+              <img src="IRA.jpg" alt="ira" width="200" height="200">
+            </div></a>
+            <a href="IRA.HTML" target="_blank" style="display: block; margin-bottom: 20px;">
+          <div class="grid-child-element green"><h2>
+            
+            IRA BY ORCHID
+          
+          </h2><p>
+              
+            This unassuming budget hotel is 3 km from Bhubaneswar railway station, 4 km from the Rajarani Temple and 5 km from the Lingaraja Temple.
+
+            
+            <br><br>
+            
+            ★★★★☆ 4-STAR HOTEL
+            
+            <br><br>
+              
+              
+            Address: A/19, Puri - Cuttack Rd, near Jatri Niwas, Laxmisagar, Bhubaneswar, Odisha 751006 • 086526 36363
+
+          </p></div>
+              </a></div>
+  <br>
+  <div class="grid-container-element">
+    <a href="fortune.HTML" target="_blank" style="display: block; margin-bottom: 20px;">
+      <div class="grid-child-element purple">
+          <img src="fortune.jpeg" alt="fortune" width="200" height="200">
+        </div></a>
+        <a href="fortune.HTML" target="_blank" style="display: block; margin-bottom: 20px;">
+      <div class="grid-child-element green"><h2>
+          
+        FORTUNE PARK SISHMO
+      </h2><p>
+          
+        A block from a road lined with government offices, this casual hotel is 3 km from Biju Patnaik International Airport and 4 km from Lingaraj Temple Bhubaneswar.        
+      <br><br>
+        
+        ★★★★☆ 4-STAR HOTEL
+        
+      <br><br>
+            
+          
+      Address: 86/A-1, Gautam Nagar, Bhubaneswar, Odisha 751014•0674 668 8444
+
+    </p></div>
+          </a></div>
+  <br>
+  <br>
+
+</body>
+</html>

@@ -1,0 +1,211 @@
+<html>
+<head>
+<title>SERVICES</title>
+<style>
+body {
+margin: 0;
+padding: 0;
+font-family: Arial, sans-serif;
+}
+.top-frame {
+height: 20%;
+background-color: #9b7953;
+display: flex;
+align-items: center;
+justify-content: center;
+border-bottom: 1px solid #410838;
+}
+.content {
+display: flex;
+height: 90%;
+}
+.main-frame {
+width: 100%;
+background-color: #867f821f;
+}
+.parent-element { 
+    width: 20%; 
+} 
+.float-child-element { 
+    float: left; 
+     
+} 
+.red { 
+    background-color: rgb(108, 106, 106); 
+    margin-left: 50%; 
+    height: 100px; 
+} 
+.yellow { 
+    margin-left: 50%; 
+}
+.grid-container-element {
+    display: grid; 
+    grid-template-columns: 1fr 4fr;  
+    background-color: #ddd2cc; 
+    width: 100%; 
+    height:auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
+
+} 
+.grid-container-element:hover{
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+    background-color: #beab95;
+
+}
+.grid-child-element { 
+    margin: 10px; 
+
+}
+
+a {
+  text-decoration: none;
+  color:black;
+  display: block; height: 100%; width: 100%;
+  display: inline-block;
+}
+a:visited { 
+  text-decoration: none; 
+  color:black;
+ }
+ * {
+  box-sizing: border-box;
+}
+.top-frame {
+  height: 20%;
+  background-color: #9b7953;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  border-bottom: 1px solid #fdf9fc;
+}
+.top-frame .search-container {
+  display: flex;
+  align-items: center;
+}
+#search-bar {
+  width: 200px;
+  padding: 5px;
+  font-size: 14px;
+}
+.search-container button {
+  padding: 6px;
+  font-size: 14px;
+  margin-left: 5px;
+}
+.navbar {
+  display: flex;
+  background-color: #6f5536;
+  padding: 10px;
+  justify-content: center;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.navbar a:hover {
+  text-decoration: underline;
+}
+</style>
+</head>
+<body>
+  <div class="top-frame">
+    <div>
+      <h1 style="font-family: Garamond; color: #3d2916; margin: 0;">Business Directory</h1>
+      <h3 style="font-family: Garamond; color: #3d2916; margin: 0;">The BBSR Chapter</h3>
+    </div>
+    <div class="search-container">
+      <input type="text" id="search-bar" placeholder="Search feature coming soon...">
+      <button onclick="searchBusiness()">Search</button>
+    </div>
+  </div>
+  <div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="contact.html">Contact Us</a>
+    <a href="services.html">Services</a>
+  </div>
+<br>
+<br>
+<div class="grid-container-element">
+  <a href="GMART.HTML" target="_blank" style="display: block; margin-bottom: 20px;">
+    <div class="grid-child-element purple">
+        <img src="GMART.jpg" alt="GMART" width="200" height="200">
+      </div></a>
+      <a href="GMART.HTML" target="_blank" style="display: block; margin-bottom: 20px;">
+    <div class="grid-child-element green"><h2>
+        
+GOOGLE MART
+    
+    </h2><p>
+          
+      Service options: Offers same-day delivery
+
+      <br><br>
+      
+      ★★★★☆ 4.2 stars
+      
+      <br><br>
+            
+      Address: 22/C, KIIT Rd, Chandaka Industrial Estate, K I I T University, Patia, Bhubaneswar, Odisha 751024
+    
+    </p></div>
+        </a></div>
+
+  <br>
+  <div class="grid-container-element">
+    <a href="MINISO.HTML" target="_blank" style="display: block; margin-bottom: 20px;">
+      <div class="grid-child-element purple">
+          <img src="MINISO.jpg" alt="MINISO" width="200" height="200">
+        </div></a>
+        <a href="MINISO.HTML" target="_blank" style="display: block; margin-bottom: 20px;">
+      <div class="grid-child-element green"><h2>
+MINISO      
+      </h2><p>
+          
+        Service options: High-end gifting options
+          
+          <br><br>
+          
+          ★★★★☆ 4.1 stars
+          
+          <br><br>
+          
+          Address: Rasulgarh Industrial Estate, Industrial Area Estate, Rasulgarh, Bhubaneswar, Odisha 751007
+        
+        </p></div>
+          </a></div>
+      <br>
+      <div class="grid-container-element">
+        <a href="hpworld.HTML" target="_blank" style="display: block; margin-bottom: 20px;">
+          <div class="grid-child-element purple">
+              <img src="hpworld.jpg" alt="HP" width="200" height="200">
+            </div></a>
+            <a href="hpworld.HTML" target="_blank" style="display: block; margin-bottom: 20px;">
+          <div class="grid-child-element green"><h2>
+            
+HP WORLD        
+          </h2><p>
+              
+            Service options: Computer hardware services
+            
+            <br><br>
+            
+            ★★★★★ 4.9 stars
+            
+            <br><br>
+              
+              
+            Address: Plot No 516/1767/4650, KIIT Rd, Patia, Bhubaneswar, Odisha 751024
+          </p></div>
+              </a></div>
+  <br>
+  
+
+</body>
+</html>

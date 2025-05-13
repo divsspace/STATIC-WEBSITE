@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Services</title>
+<style>
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+.top-frame {
+  height: 20%;
+  background-color: #9b7953;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  border-bottom: 1px solid #410838;
+}
+.top-frame .search-container {
+  display: flex;
+  align-items: center;
+}
+#search-bar {
+  width: 200px;
+  padding: 5px;
+  font-size: 14px;
+}
+.search-container button {
+  padding: 6px;
+  font-size: 14px;
+  margin-left: 5px;
+}
+.navbar {
+  display: flex;
+  background-color: #6f5536;
+  padding: 10px;
+  justify-content: center;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.navbar a:hover {
+  text-decoration: underline;
+}
+.main-frame {
+  width: 100%;
+  background-color: #867f821f;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.service-image {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  border-radius: 10px;
+  margin: 20px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.footer {
+  background-color: #9b7953;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+}
+.footer a {
+  color: white;
+  text-decoration: underline;
+}
+h1, h2, p {
+  font-family: "Garamond", serif;
+  color: #3d2916;
+}
+</style>
+</head>
+<body>
+<div class="top-frame">
+  <div>
+    <h1 style="margin: 0;">Business Directory</h1>
+    <h3 style="margin: 0;">Services</h3>
+  </div>
+  <div class="search-container">
+    <input type="text" id="search-bar" placeholder="Search feature coming soon...">
+    <button onclick="searchBusiness()">Search</button>
+  </div>
+</div>
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <a href="about.html">About Us</a>
+  <a href="contact.html">Contact Us</a>
+  <a href="services.html">Services</a>
+  <a href="faq.html">FAQ</a>
+  <a href="blog.html">Blog</a>
+  <a href="partners.html">Partners</a>
+  <a href="offers.html">Offers</a>
+  <a href="privacy-policy.html">Privacy Policy</a>
+  <a href="terms.html">Terms of Service</a>
+</div>
+<div class="main-frame">
+  <h2>Our Services</h2>
+  <img src="about.webp" alt="Services" class="service-image">
+  <p>At Business Directory, we strive to offer comprehensive services that cater to a wide array of needs. Whether you're looking for local businesses, professional services, or hidden gems in your area, our directory is your go-to platform.</p>
+  <h2>What We Offer</h2>
+  <ul>
+    <li>Detailed business listings across multiple categories.</li>
+    <li>Reliable reviews and ratings to help you make informed decisions.</li>
+    <li>Exclusive promotions and discounts from partnered businesses.</li>
+    <li>Seamless user experience with intuitive navigation.</li>
+  </ul>
+  <h2>Why Use Our Services?</h2>
+  <p>Our platform is designed to bridge the gap between consumers and businesses, ensuring both parties benefit. By using our directory, you'll gain access to verified information, curated listings, and exceptional customer support.</p>
+</div>
+<footer class="footer">
+  <p>&copy; 2025 Business Directory. All rights reserved.</p>
+  <p>Contact us: <a href="mailto:info@businessdirectory.com">info@businessdirectory.com</a></p>
+</footer>
+</body>
+</html>

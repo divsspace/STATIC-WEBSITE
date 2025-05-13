@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Partners</title>
+<style>
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+.top-frame {
+  height: 20%;
+  background-color: #9b7953;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  border-bottom: 1px solid #410838;
+}
+.top-frame .search-container {
+  display: flex;
+  align-items: center;
+}
+#search-bar {
+  width: 200px;
+  padding: 5px;
+  font-size: 14px;
+}
+.search-container button {
+  padding: 6px;
+  font-size: 14px;
+  margin-left: 5px;
+}
+.navbar {
+  display: flex;
+  background-color: #6f5536;
+  padding: 10px;
+  justify-content: center;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.navbar a:hover {
+  text-decoration: underline;
+}
+.main-frame {
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+.main-content {
+  margin-bottom: 40px;
+}
+h1, h2, p {
+  font-family: "Garamond", serif;
+  color: #3d2916;
+}
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 0 auto;
+}
+form label {
+  font-size: 16px;
+  margin-bottom: 8px;
+  display: block;
+  color: #34240e;
+}
+form input, form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+form button {
+  background-color: #34240e;
+  color: white;
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+form button:hover {
+  background-color: #9b7953;
+}
+.footer {
+  background-color: #9b7953;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+.footer a {
+  color: white;
+  text-decoration: underline;
+}
+</style>
+</head>
+<body>
+<div class="top-frame">
+  <div>
+    <h1 style="margin: 0;">Business Directory</h1>
+    <h3 style="margin: 0;">Partners</h3>
+  </div>
+  <div class="search-container">
+    <input type="text" id="search-bar" placeholder="Search feature coming soon...">
+    <button onclick="searchBusiness()">Search</button>
+  </div>
+</div>
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <a href="about.html">About Us</a>
+  <a href="contact.html">Contact Us</a>
+  <a href="services.html">Services</a>
+  <a href="faq.html">FAQ</a>
+  <a href="blog.html">Blog</a>
+  <a href="partners.html">Partners</a>
+  <a href="offers.html">Offers</a>
+  <a href="privacy-policy.html">Privacy Policy</a>
+  <a href="terms.html">Terms of Service</a>
+</div>
+
+<div class="main-frame">
+  <div class="main-content">
+    <h2>Our Trusted Partners</h2>
+    <p>We work with various businesses and service providers to bring you the best deals and services. Our partners are essential in providing you with an excellent user experience.</p>
+    
+    <div>
+      <h3>Partner 1: XYZ Restaurant</h3>
+      <p>XYZ Restaurant offers a wide range of gourmet dining options. Visit their website for more details and exclusive offers.</p>
+    </div>
+    
+    <div>
+      <h3>Partner 2: ABC Hotel</h3>
+      <p>Stay in comfort at ABC Hotel, a 5-star establishment offering exceptional services. Check out their latest deals for your next stay.</p>
+    </div>
+    
+    <div>
+      <h3>Partner 3: PQR Tech Solutions</h3>
+      <p>PQR Tech Solutions provides cutting-edge software and tech support for businesses. Get in touch with them for customized tech solutions.</p>
+    </div>
+    
+    <div>
+      <h3>Partner 4: LMN Fitness</h3>
+      <p>LMN Fitness offers personalized fitness programs and health tips to help you achieve your wellness goals. Join their community today!</p>
+    </div>
+    <h2>Become a Partner</h2>
+    <p>We’re always looking for new partners who can bring value to our business directory and help us serve the community better. If you're interested in collaborating with us and becoming a part of our network, please fill out the form below.</p>
+
+    <h3>Partner Interest Form</h3>
+    
+    <form action="#" method="post">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="business_name">Business Name:</label>
+      <input type="text" id="business_name" name="business_name" required>
+
+      <label for="industry">Industry:</label>
+      <input type="text" id="industry" name="industry" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Submit Interest</button>
+    </form>
+  </div>
+</div>
+
+<footer class="footer">
+  <p>&copy; 2025 Business Directory. All rights reserved.</p>
+  <p>Contact us: <a href="mailto:info@businessdirectory.com">info@businessdirectory.com</a></p>
+</footer>
+</body>
+</html>

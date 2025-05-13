@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CONTACT</title>
+<style>
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+.top-frame {
+  height: 20%;
+  background-color: #9b7953;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  border-bottom: 1px solid #410838;
+}
+.top-frame .search-container {
+  display: flex;
+  align-items: center;
+}
+#search-bar {
+  width: 200px;
+  padding: 5px;
+  font-size: 14px;
+}
+.search-container button {
+  padding: 6px;
+  font-size: 14px;
+  margin-left: 5px;
+}
+.navbar {
+  display: flex;
+  background-color: #6f5536;
+  padding: 10px;
+  justify-content: center;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.navbar a:hover {
+  text-decoration: underline;
+}
+.main-frame {
+  width: 100%;
+  background-color: #867f821f;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.main-frame img {
+  width: 80%;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+.footer {
+  background-color: #9b7953;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+}
+.footer a {
+  color: white;
+  text-decoration: underline;
+}
+h1, h2, p {
+  font-family: "Garamond", serif;
+  color: #3d2916;
+}
+ul {
+  text-align: left;
+  display: inline-block;
+  margin: 20px auto;
+}
+form {
+  text-align: left;
+  width: 50%;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+form button {
+  background-color: #6f5536;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+form button:hover {
+  background-color: #9b7953;
+}
+</style>
+</head>
+<body>
+<div class="top-frame">
+  <div>
+    <h1 style="margin: 0;">Business Directory</h1>
+    <h3 style="font-family: Garamond; color: #3d2916; margin: 0;">The BBSR Chapter</h3>
+  </div>
+  <div class="search-container">
+    <input type="text" id="search-bar" placeholder="Search feature coming soon...">
+    <button onclick="searchBusiness()">Search</button>
+  </div>
+</div>
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <a href="about.html">About Us</a>
+  <a href="contact.html">Contact Us</a>
+  <a href="services.html">Services</a>
+  <a href="faq.html">FAQ</a>
+  <a href="blog.html">Blog</a>
+  <a href="partners.html">Partners</a>
+  <a href="offers.html">Offers</a>
+  <a href="privacy-policy.html">Privacy Policy</a>
+  <a href="terms.html">Terms of Service</a>
+</div>
+<div class="main-frame">
+  <p>Welcome to the Business Directory - The BBSR Chapter. We are committed to helping you explore and discover the best businesses in Bhubaneswar. From restaurants and fast-food joints to hotels and local services, our directory provides a one-stop solution for all your needs.</p>
+
+  <h2>Get in Touch</h2>
+  <p>Have questions or suggestions? Feel free to reach out to us at <a href="mailto:info@businessdirectory.com">info@businessdirectory.com</a>. Phone: <br><BR> IND: +(91)123 456 7891<BR><BR> INT: +(198)281 282 292<BR><BR>LANDLINE: 126382<BR><br> We value your feedback and are always looking to improve our services.</p>
+  
+  <h2>Feedback Form</h2>
+  <form action="submit_feedback.php" method="post">
+    <label for="name">Your Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Your Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="message">Your Feedback:</label>
+    <textarea id="message" name="message" rows="4" required></textarea>
+
+    <label for="rating">Rating (1-5):</label>
+    <input type="number" id="rating" name="rating" min="1" max="5" required>
+
+    <button type="submit">Submit Feedback</button>
+  </form>
+
+  <h2>Our Mission</h2>
+  <p>Our mission is to connect customers with top-rated businesses and services, ensuring quality and satisfaction. We believe in promoting local enterprises while providing users with a seamless browsing experience.</p>
+  <h2>Why Choose Us?</h2>
+  <ul>
+    <li>Comprehensive listings of businesses across multiple categories.</li>
+    <li>Easy navigation and user-friendly interface.</li>
+    <li>Regular updates to ensure accurate information.</li>
+    <li>Dedicated to supporting local businesses and communities.</li>
+  </ul>
+</div>
+<footer class="footer">
+  <p>&copy; 2025 Business Directory. All rights reserved.</p>
+  <p>Contact us: <a href="mailto:info@businessdirectory.com">info@businessdirectory.com</a></p>
+</footer>
+</body>
+</html>

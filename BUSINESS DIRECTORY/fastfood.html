@@ -1,0 +1,235 @@
+<html>
+<head>
+<title>Fast Food Joints</title>
+<style>
+body {
+margin: 0;
+padding: 0;
+font-family: Arial, sans-serif;
+}
+.top-frame {
+height: 20%;
+background-color: #9b7953;
+display: flex;
+align-items: center;
+justify-content: center;
+border-bottom: 1px solid #410838;
+}
+.content {
+display: flex;
+height: 90%;
+}
+.parent-element { 
+    width: 20%; 
+} 
+.float-child-element { 
+    float: left; 
+     
+} 
+.red { 
+    background-color: rgb(108, 106, 106); 
+    margin-left: 50%; 
+    height: 100px; 
+} 
+.yellow { 
+    margin-left: 50%; 
+}
+.grid-container-element {
+    display: grid; 
+    grid-template-columns: 1fr 4fr;  
+    background-color: #ddd2cc; 
+    width: 100%; 
+    height:auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
+
+} 
+.grid-container-element:hover{
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+    background-color: #beab95;
+
+}
+.grid-child-element { 
+    margin: 10px; 
+
+}
+
+a {
+  text-decoration: none;
+  color:black;
+  display: block; height: 100%; width: 100%;
+  display: inline-block;
+}
+a:visited { 
+  text-decoration: none; 
+  color:black;
+ }
+ * {
+  box-sizing: border-box;
+}
+
+.top-frame {
+  height: 20%;
+  background-color: #9b7953;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  border-bottom: 1px solid #fdf9fc;
+}
+.top-frame .search-container {
+  display: flex;
+  align-items: center;
+}
+#search-bar {
+  width: 200px;
+  padding: 5px;
+  font-size: 14px;
+}
+.search-container button {
+  padding: 6px;
+  font-size: 14px;
+  margin-left: 5px;
+}
+.navbar {
+  display: flex;
+  background-color: #6f5536;
+  padding: 10px;
+  justify-content: center;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.navbar a:hover {
+  text-decoration: underline;
+}
+</style>
+</head>
+<body>
+  <div class="top-frame">
+    <div>
+      <h1 style="font-family: Garamond; color: #3d2916; margin: 0;">Business Directory</h1>
+      <h3 style="font-family: Garamond; color: #3d2916; margin: 0;">The BBSR Chapter</h3>
+    </div>
+    <div class="search-container">
+      <input type="text" id="search-bar" placeholder="Search feature coming soon...">
+      <button onclick="searchBusiness()">Search</button>
+    </div>
+  </div>
+  <div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="contact.html">Contact Us</a>
+    <a href="services.html">Services</a>
+  </div>
+<br>
+<br>
+<div class="grid-container-element">
+  <a href="lpz.HTML" target="_blank" style="display: block; margin-bottom: 20px;">
+    <div class="grid-child-element purple">
+        <img src="lpz.jpg" alt="IMAGE" width="200" height="200">
+      </div></a>
+      <a href="lpz.HTML" target="_blank" style="display: block; margin-bottom: 20px;">
+    <div class="grid-child-element green"><h2>
+        
+      LA PINO'S PIZZA
+
+    
+    </h2><p>
+          
+      Service options: Has all you can eat · Serves vegetarian dishes · Good for watching sport
+
+      <br><br>
+      
+      ★★★★☆ 4.1 stars
+      
+      <br><br>
+            
+      Address: Ward 3, Mouza-Patia, Khata No-474, 2194, KIIT Rd, Patia, Bhubaneswar, Odisha 751024
+    
+    </p></div>
+        </a></div>
+
+  <br>
+  <div class="grid-container-element">
+    <a href="burs.HTML" target="_blank" style="display: block; margin-bottom: 20px;">
+      <div class="grid-child-element purple">
+          <img src="burs.jpg" alt="IMAGE" width="200" height="200">
+        </div></a>
+        <a href="burs.HTML" target="_blank" style="display: block; margin-bottom: 20px;">
+      <div class="grid-child-element green"><h2>
+        BURGER SINGH
+      
+      </h2><p>
+          
+        Service options: Cash only · Serves vegetarian dishes · Has kids' menu
+          
+          <br><br>
+          
+          ★★★★☆ 4.3 stars
+          
+          <br><br>
+          
+          Address: P) & 63 Rev, IDCO Plot 61, KIIT Rd Ground Flr, Chandaka Industrial Estate, Bhubaneswar, Odisha 751024
+        
+        </p></div>
+          </a></div>
+      <br>
+      <div class="grid-container-element">
+        <a href="biggies.HTML" target="_blank" style="display: block; margin-bottom: 20px;">
+          <div class="grid-child-element purple">
+              <img src="biggies.jpg" alt="IMAGE" width="200" height="200">
+            </div></a>
+            <a href="biggies.HTML" target="_blank" style="display: block; margin-bottom: 20px;">
+          <div class="grid-child-element green"><h2>
+            
+            BIGGIES BURGER
+          
+          </h2><p>
+              
+            Service options: Has outdoor seating · Serves vegetarian dishes · Has kids' menu
+            
+            <br><br>
+            
+            ★★★★☆ 4.5 stars
+            
+            <br><br>
+              
+              
+            Address: #516, KIIT road, Behind Axis Bank/, behind Reliance Footprint, Patia, Bhubaneswar, Odisha 751024
+          </p></div>
+              </a></div>
+  <br>
+  <div class="grid-container-element">
+    <a href="kfc.HTML" target="_blank" style="display: block; margin-bottom: 20px;">
+      <div class="grid-child-element purple">
+          <img src="kfc.jpg" alt="IMAGE" width="200" height="200">
+        </div></a>
+        <a href="kfc.HTML" target="_blank" style="display: block; margin-bottom: 20px;">
+      <div class="grid-child-element green"><h2>
+          
+        KFC      
+      </h2><p>
+          
+        Service options: Has all you can eat · Has rooftop seating · Good for watching sport
+        
+      <br><br>
+        
+        ★★★★☆ 4. 3 stars
+        
+      <br><br>
+            
+          
+      Address: Ground Floor, Plot No 62 & 63, opposite KIIT University, Chandaka Industrial Estate, Area, Patia, Bhubaneswar, Odisha 751024
+    </p></div>
+          </a></div>
+  <br>
+  <br>
+
+</body>
+</html>
